@@ -8,6 +8,19 @@
   </div>
 </template>
 
+<script>
+export default {
+  created() {
+    let tokeninfo = this.$local.get("token");
+    if (tokeninfo) {
+      this.$router.push("/youhao");
+    }else{
+      this.$router.push("/");
+    }
+  },
+};
+</script>
+
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
