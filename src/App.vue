@@ -14,7 +14,7 @@ export default {
     let tokeninfo = this.$local.get("token");
     if (tokeninfo) {
       this.$router.push("/youhao");
-    }else{
+    } else {
       this.$router.push("/");
     }
   },

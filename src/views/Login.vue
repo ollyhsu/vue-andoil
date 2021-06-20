@@ -21,7 +21,7 @@
         ></van-field>
       </van-cell-group>
 
-      <p class="loginchoice">
+      <p class="registerchoice">
         没有有账号？<router-link to="/register">立即注册</router-link>
       </p>
       <van-button
@@ -87,7 +87,7 @@ export default {
   .input-item {
     margin-top: 44px;
   }
-  .loginchoice {
+  .registerchoice {
     padding-right: 10px;
     font-size: 12px;
     text-align: right;
