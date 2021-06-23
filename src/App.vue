@@ -1,24 +1,20 @@
 <template>
   <div id="app">
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div> -->
     <router-view />
   </div>
 </template>
 
 <script>
-export default {
-  created() {
-    let tokeninfo = this.$local.get("token");
-    if (tokeninfo) {
-      this.$router.push("/youhao");
-    } else {
-      this.$router.push("/");
-    }
-  },
-};
+// export default {
+//   created() {
+//     let tokeninfo = this.$local.get("token");
+//     if (tokeninfo) {
+//       this.$router.push("#");
+//     } else {
+//       this.$router.push("/");
+//     }
+//   },
+// };
 </script>
 
 <style lang="scss">

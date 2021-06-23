@@ -7,7 +7,7 @@
     <van-tabbar v-model="active">
       <van-tabbar-item icon="fire-o" to="/youhao">油耗</van-tabbar-item>
       <van-tabbar-item icon="balance-o" to="/cost">消费</van-tabbar-item>
-      <van-tabbar-item icon="chat-o" to="/discover">发现</van-tabbar-item>
+      <!-- <van-tabbar-item icon="chat-o" to="/discover">发现</van-tabbar-item> -->
       <van-tabbar-item icon="user-circle-o" to="/me">我的</van-tabbar-item>
     </van-tabbar>
   </div>

@@ -39,7 +39,7 @@
       >
       <van-button
         class="save-btn"
-        color="#1baeae"
+        color="#c0c0c0"
         type="primary"
         @click="logout"
         block

@@ -42,7 +42,7 @@
         />
       </div>
       <van-button
-        class="save-btn"
+        class="btn"
         color="#1baeae"
         type="primary"
         @click="savePwd"
@@ -116,4 +116,9 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.btn {
+  width: 80%;
+  margin: 20px auto;
+}
+</style>
